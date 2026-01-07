@@ -1,28 +1,35 @@
 # CardiAIgnostic
 
-CardiAIgnostic es una aplicación desarrollada en Python que utiliza un modelo de **Regresión Logística** para apoyar en el diagnóstico de riesgo cardíaco a partir de variables clínicas.
+CardiAIgnostic is a Python application that uses a **Logistic Regression** model to support cardiac risk assessment based on clinical variables.
 
-El proyecto integra:
-- Preprocesamiento de datos con **scikit-learn**.
-- Escalado de características con **MinMaxScaler**.
-- Interfaz gráfica para ingreso de datos.
-- Predicción automática del riesgo.
+The project integrates:
+- Data preprocessing with **scikit-learn**.
 
----
+- Feature scaling with **MinMaxScaler**.
 
-## Características
+- Graphical interface for data entry.
 
--  Carga y procesamiento de datos clínicos.
--  Modelo de Machine Learning entrenado con regresión logística.
--  Normalización de variables.
--  Interfaz gráfica amigable.
--  Predicción en tiempo real.
+- Automatic risk prediction.
 
 ---
 
-## Tecnologías utilizadas
+## Features
 
-- Python 3.x
+- Loading and processing of clinical data.
+
+- Machine Learning model trained with logistic regression.
+
+- Variable normalization.
+
+- User-friendly graphical interface.
+
+- Real-time prediction.
+
+---
+
+## Technologies used
+
+- Python 3
 - scikit-learn
 - pandas
 - numpy
